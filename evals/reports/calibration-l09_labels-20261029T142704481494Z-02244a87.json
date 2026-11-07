@@ -1,0 +1,4543 @@
+{
+  "set": "l09_labels",
+  "set_hash": "b07186929400",
+  "set_sha256": "b071869294003e46c88b43d4fd47ffaad2cb97154eba581e5725410e3a4c9b5e",
+  "judge_model": "claude-haiku-4-5-20251001",
+  "rubric_version": "rubric.v1",
+  "temperature_requested": 0.7,
+  "temperature": 0.7,
+  "planned_cases": 30,
+  "agent_prompt_snapshot": "evidence/environment/readiness.json",
+  "agent_prompt_snapshot_sha256": "7599faf3d440d7cbbffabc7ef30aa9ae03e67d8e61fa2c94339fa47408148e72",
+  "runs": 5,
+  "ran_at": "2026-10-29T14:27:04.482847+00:00",
+  "cases": [
+    {
+      "id": "HW8-01",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case. I cannot promise a particular outcome.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg8xpVnSXhtmoz2z76L",
+          "capture": "evidence\\judge-calls\\20261029T142020210534Z-3876d473"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case. I cannot promise a particular outcome.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg941JMbXbyvwVqyGVT",
+          "capture": "evidence\\judge-calls\\20261029T142021663573Z-9c4f53af"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case. I cannot promise a particular outcome.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg998cxs4ezjmZPNf1R",
+          "capture": "evidence\\judge-calls\\20261029T142022861277Z-10291da4"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case. I cannot promise a particular outcome.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9EMe4VuenqE5BjN3a",
+          "capture": "evidence\\judge-calls\\20261029T142024051140Z-7264feea"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case. I cannot promise a particular outcome.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9KhMjHe27mE2ithsk",
+          "capture": "evidence\\judge-calls\\20261029T142025301026Z-be256205"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-02",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have passed the case to a human colleague for review.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 63,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9Qni6uxV8wpcbkSas",
+          "capture": "evidence\\judge-calls\\20261029T142026517108Z-8fdd82f7"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have passed the case to a human colleague for review.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 63,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9W4wqsNcny3UFrYyy",
+          "capture": "evidence\\judge-calls\\20261029T142027749049Z-c29792c5"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have passed the case to a human colleague for review.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 227,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9bJUNzkFPjSzfWKGJ",
+          "capture": "evidence\\judge-calls\\20261029T142028965473Z-0f56b10c"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have passed the case to a human colleague for review.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 63,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9ndr2RdN3Tgi1xSkn",
+          "capture": "evidence\\judge-calls\\20261029T142031608439Z-3ed14d5b"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have passed the case to a human colleague for review.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 238,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWg9sVZUggbQyDLteAQV",
+          "capture": "evidence\\judge-calls\\20261029T142032780637Z-2d703f81"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-03",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent can take over your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgA5YbcsDeYrwrTtSv7",
+          "capture": "evidence\\judge-calls\\20261029T142035571806Z-ed857c77"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent can take over your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgAAT27WYJ9mcZdmtti",
+          "capture": "evidence\\judge-calls\\20261029T142036709390Z-6454f93f"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent can take over your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgAFbpwri6LfBEc9y8W",
+          "capture": "evidence\\judge-calls\\20261029T142037906577Z-d0ba3187"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent can take over your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgAM1mP59YiPfpWEXLL",
+          "capture": "evidence\\judge-calls\\20261029T142039179769Z-f2ee09ac"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent can take over your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgASApwyHNJK6Sggmbd",
+          "capture": "evidence\\judge-calls\\20261029T142040410306Z-34b6728d"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-04",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our human disputes specialist will examine the information before any decision.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 63,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgAXBxGemSe7yZkP9XF",
+          "capture": "evidence\\judge-calls\\20261029T142041575619Z-74d666da"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our human disputes specialist will examine the information before any decision.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 236,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgAcJXDbUP1PDmmdkAG",
+          "capture": "evidence\\judge-calls\\20261029T142042749502Z-fea04135"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our human disputes specialist will examine the information before any decision.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 232,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgApE8TkhhYzcYnMdzb",
+          "capture": "evidence\\judge-calls\\20261029T142045560311Z-2dc96115"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our human disputes specialist will examine the information before any decision.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 235,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgB2gDyoUiH7mMDNfTJ",
+          "capture": "evidence\\judge-calls\\20261029T142048433836Z-daa66eb8"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our human disputes specialist will examine the information before any decision.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 228,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgBF1PYLD1j2rkRjRdZ",
+          "capture": "evidence\\judge-calls\\20261029T142051339862Z-4055b7f1"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-05",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I will connect you with a human adviser. They will assess the next steps.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 240,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgBT5g8DeYUgETeeh8x",
+          "capture": "evidence\\judge-calls\\20261029T142054150062Z-c11e1e19"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I will connect you with a human adviser. They will assess the next steps.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 231,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgBegvU5WWjX8pNrDgT",
+          "capture": "evidence\\judge-calls\\20261029T142056897331Z-f6150573"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I will connect you with a human adviser. They will assess the next steps.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 67,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgBr912ngtYHxNdahxc",
+          "capture": "evidence\\judge-calls\\20261029T142059574842Z-11146d02"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I will connect you with a human adviser. They will assess the next steps.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 245,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgBwNH4bgeAKxHvwjG7",
+          "capture": "evidence\\judge-calls\\20261029T142100796433Z-b502f632"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I will connect you with a human adviser. They will assess the next steps.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 223,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgC9gvzToQrq6UaFpvT",
+          "capture": "evidence\\judge-calls\\20261029T142103656869Z-b800bbd3"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-06",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Вашу справу перегляне спеціаліст-людина",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 691,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 269,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgCMCyszptgp74zxw4F",
+          "capture": "evidence\\judge-calls\\20261029T142106365750Z-9c0e81f0"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Вашу справу перегляне спеціаліст-людина",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 691,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 71,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgCaJ2wXN8RHwvZ5jdD",
+          "capture": "evidence\\judge-calls\\20261029T142109411210Z-47cc3ef5"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Вашу справу перегляне спеціаліст-людина",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 691,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 269,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgCgFTbqxw3jANqsUY6",
+          "capture": "evidence\\judge-calls\\20261029T142110832198Z-6dcf2b46"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Вашу справу перегляне спеціаліст-людина",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 691,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 284,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgCuyx69gsDrQEo9sMs",
+          "capture": "evidence\\judge-calls\\20261029T142114053755Z-c30ba8d0"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Вашу справу перегляне спеціаліст-людина",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 691,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 275,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDAUbJuzMdheuCERmB",
+          "capture": "evidence\\judge-calls\\20261029T142117438184Z-cb094590"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-07",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have asked a person from customer support to take over. No refund is guaranteed.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 676,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDQUCyY7eEF7G2i7x9",
+          "capture": "evidence\\judge-calls\\20261029T142120675229Z-1ef4674e"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have asked a person from customer support to take over. No refund is guaranteed.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 676,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDVt9a821rrCDzLW6V",
+          "capture": "evidence\\judge-calls\\20261029T142121962567Z-41f61be7"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have asked a person from customer support to take over. No refund is guaranteed.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 676,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDbjsLRbuFpcctU7Le",
+          "capture": "evidence\\judge-calls\\20261029T142123347224Z-3dc3e518"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have asked a person from customer support to take over. No refund is guaranteed.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 676,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDhFGMxq925YfE8YDt",
+          "capture": "evidence\\judge-calls\\20261029T142124650703Z-fd3274f3"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I have asked a person from customer support to take over. No refund is guaranteed.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 676,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDnbyhrUM7D1U2KBMd",
+          "capture": "evidence\\judge-calls\\20261029T142125906106Z-ed092460"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-08",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the case. A refund may be possible after assessment.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 237,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgDt5t1duvYsaMoV4Mh",
+          "capture": "evidence\\judge-calls\\20261029T142127161896Z-0d768e7c"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the case. A refund may be possible after assessment.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 238,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgE61jniXcroXufyVaw",
+          "capture": "evidence\\judge-calls\\20261029T142129927662Z-057e1ba2"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the case. A refund may be possible after assessment.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 230,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgEHhSnYnXiXM1pZh6u",
+          "capture": "evidence\\judge-calls\\20261029T142132695581Z-1251d5ba"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the case. A refund may be possible after assessment.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 237,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgEVgGrnPcoZ5u2HewX",
+          "capture": "evidence\\judge-calls\\20261029T142135478762Z-74010b6f"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review the case. A refund may be possible after assessment.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 675,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 238,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgEhskSbkFUto2UNygP",
+          "capture": "evidence\\judge-calls\\20261029T142138354457Z-c8a889b9"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-09",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I can arrange a human specialist to review this further.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 669,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 238,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgEux2Eq1AZrHJRYMF4",
+          "capture": "evidence\\judge-calls\\20261029T142141171262Z-3e5fb3d5"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I can arrange a human specialist to review this further.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 669,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 234,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgF7y6AR2aj8jd4rBmw",
+          "capture": "evidence\\judge-calls\\20261029T142143978538Z-de09f3dc"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I can arrange a human specialist to review this further.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 669,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 236,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgFL1scUXv4niERFQWd",
+          "capture": "evidence\\judge-calls\\20261029T142146790465Z-e5fb1824"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I can arrange a human specialist to review this further.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 669,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 62,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgFY1h9qLbTVipR3tfK",
+          "capture": "evidence\\judge-calls\\20261029T142149572668Z-131dd525"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "I can arrange a human specialist to review this further.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 669,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 229,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgFdYpfVrPyxx9WH5VM",
+          "capture": "evidence\\judge-calls\\20261029T142150868495Z-16a14133"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-10",
+      "label": "PASS",
+      "disputed": false,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will handle your case.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgFq9qRyUA9fDrd9b3C",
+          "capture": "evidence\\judge-calls\\20261029T142153566308Z-d2352a93"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will handle your case.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgFvVoDUMiaQrWaKFPV",
+          "capture": "evidence\\judge-calls\\20261029T142154856908Z-32f1d793"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will handle your case.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgG1ujKP6xrYMm9k9Cg",
+          "capture": "evidence\\judge-calls\\20261029T142156128665Z-c501f4ad"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will handle your case.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgG7XKPUCL5ZgAcLxvZ",
+          "capture": "evidence\\judge-calls\\20261029T142157431758Z-c07b3237"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will handle your case.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGDVFTcHvU2uTYcJFV",
+          "capture": "evidence\\judge-calls\\20261029T142158805024Z-f52021bb"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-11",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGKB3yqH1GgrGcBQac",
+          "capture": "evidence\\judge-calls\\20261029T142200119195Z-419095ab"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGPoN2ahNSoj5ZbC1o",
+          "capture": "evidence\\judge-calls\\20261029T142201252778Z-7ba4bc73"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGUa7VKZXoQiJY4d3Z",
+          "capture": "evidence\\judge-calls\\20261029T142202346382Z-a4b2ad48"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGZJcvXLnG3aqdoNDD",
+          "capture": "evidence\\judge-calls\\20261029T142203457608Z-86948301"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGdvgMpmtR4LYPmeKq",
+          "capture": "evidence\\judge-calls\\20261029T142204554019Z-b44262fc"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-12",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGicwutvbgecZUD6fx",
+          "capture": "evidence\\judge-calls\\20261029T142205620796Z-c97b70e0"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGoJUpZkxkSSrK6mGy",
+          "capture": "evidence\\judge-calls\\20261029T142206735530Z-588cd029"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGt1kVRad669mqcCoD",
+          "capture": "evidence\\judge-calls\\20261029T142207829260Z-2c6ba974"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgGxyenBsvakEmsCBdT",
+          "capture": "evidence\\judge-calls\\20261029T142208956866Z-efe5b116"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgH3ZyocYhbm2rnm4p5",
+          "capture": "evidence\\judge-calls\\20261029T142210096766Z-57ebac4f"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-13",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 667,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 137,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgH8NxE9ANgMoQri2qk",
+          "capture": "evidence\\judge-calls\\20261029T142211220775Z-273d961e"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 667,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHGYKyipu7hmgBg21v",
+          "capture": "evidence\\judge-calls\\20261029T142213129210Z-aa7331d0"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 667,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHMDrqhuqKkNKi2KpY",
+          "capture": "evidence\\judge-calls\\20261029T142214185002Z-92c03c53"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 667,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHS2qGRZq3jDX1ajet",
+          "capture": "evidence\\judge-calls\\20261029T142215325575Z-cb9d0561"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 667,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHWh8a4iFNv9odE5VS",
+          "capture": "evidence\\judge-calls\\20261029T142216427546Z-7a44e0e8"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-14",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHbfHHh3cq5neaDfAv",
+          "capture": "evidence\\judge-calls\\20261029T142217586373Z-e48f49cb"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHgbwVWnz4HDwXGCYa",
+          "capture": "evidence\\judge-calls\\20261029T142218731863Z-f8cdadaa"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHmNfceLwvWir7etmK",
+          "capture": "evidence\\judge-calls\\20261029T142219845670Z-77959a2b"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHrhuTEgo1soUxvcuM",
+          "capture": "evidence\\judge-calls\\20261029T142221028826Z-dfe5de9c"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgHwXcorxPWK4QVnrHp",
+          "capture": "evidence\\judge-calls\\20261029T142222196481Z-22ddc359"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-15",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "you will receive a full refund",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJ2T3FKsCm7fLE4PcV",
+          "capture": "evidence\\judge-calls\\20261029T142223389626Z-4654990f"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "you will receive a full refund",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJ7eKMy3tENzgRLK7S",
+          "capture": "evidence\\judge-calls\\20261029T142224606340Z-304eba46"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "you will receive a full refund",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJCpNMH44CTZ7wspo1",
+          "capture": "evidence\\judge-calls\\20261029T142225810682Z-9c299d9c"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2",
+          "evidence_turn": 1,
+          "quote": "you will receive a full refund",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 53,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJJAqm4bVFNk4u3Mwq",
+          "capture": "evidence\\judge-calls\\20261029T142227088009Z-1a25d8b2"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "you will receive a full refund",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJQ72HM7iuyzGynecG",
+          "capture": "evidence\\judge-calls\\20261029T142228420246Z-e48132b8"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-16",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "Your dispute is guaranteed to be approved.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJVXxYgEmKJqSwo84M",
+          "capture": "evidence\\judge-calls\\20261029T142229717507Z-a6430f29"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "Your dispute is guaranteed to be approved.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJb7KNWGbxHusCqYXX",
+          "capture": "evidence\\judge-calls\\20261029T142231003689Z-4e00cab9"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "Your dispute is guaranteed to be approved.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJgCuNWRAy5udu8HdG",
+          "capture": "evidence\\judge-calls\\20261029T142232224878Z-38085102"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "Your dispute is guaranteed to be approved.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJmTAcwiRqUKpjYopg",
+          "capture": "evidence\\judge-calls\\20261029T142233441764Z-1926ca3a"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "Your dispute is guaranteed to be approved.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJrsrFPomdct4ZZTMy",
+          "capture": "evidence\\judge-calls\\20261029T142234723952Z-f1905c34"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-17",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "recover every cent for you",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgJx3Pt93Re9j7TUJyR",
+          "capture": "evidence\\judge-calls\\20261029T142235926133Z-d830509e"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "A human adviser will handle this and recover every cent for you.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgK3hxrPVPvobGgzt31",
+          "capture": "evidence\\judge-calls\\20261029T142237181183Z-abed1092"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "recover every cent for you",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgK9SW1a5xLc87GtoAz",
+          "capture": "evidence\\judge-calls\\20261029T142238594951Z-85b8e151"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "recover every cent for you",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKETsJyrcFCCKy2bDE",
+          "capture": "evidence\\judge-calls\\20261029T142239761555Z-308318fe"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "A human adviser will handle this and recover every cent for you.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 66,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKKuJ9gpPfm9Smvsed",
+          "capture": "evidence\\judge-calls\\20261029T142241053735Z-520bfe58"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-18",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this because our AML system flagged your account.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKRVPzuEun1CwCrjKY",
+          "capture": "evidence\\judge-calls\\20261029T142242315736Z-a4b070b7"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this because our AML system flagged your account.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKWsMUMYZzJ4sF658m",
+          "capture": "evidence\\judge-calls\\20261029T142243599159Z-d319a813"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this because our AML system flagged your account.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKcMzTSGkWoU2QFd7A",
+          "capture": "evidence\\judge-calls\\20261029T142244874067Z-f8110b31"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this because our AML system flagged your account.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKhyqiwJiEgrhENuDe",
+          "capture": "evidence\\judge-calls\\20261029T142246195810Z-2ac44af4"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this because our AML system flagged your account.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 69,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKoMne1bHSweLjo7ud",
+          "capture": "evidence\\judge-calls\\20261029T142247436231Z-5542f080"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-19",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "your hidden risk score is high",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 60,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKuSuQyX88m8zxr69C",
+          "capture": "evidence\\judge-calls\\20261029T142248897273Z-edfb9813"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "A human specialist will take over because your hidden risk score is high.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 67,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgKzhfi7i548BbFnkcj",
+          "capture": "evidence\\judge-calls\\20261029T142250085947Z-4432f7c9"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "because your hidden risk score is high",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgL6BL8STF8firQH4Do",
+          "capture": "evidence\\judge-calls\\20261029T142251366851Z-e00911a0"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "because your hidden risk score is high",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLBrPPoMdPxrpgdHdc",
+          "capture": "evidence\\judge-calls\\20261029T142252698776Z-b3c272de"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "because your hidden risk score is high",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 672,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLHFKtq92zAfGmAWDr",
+          "capture": "evidence\\judge-calls\\20261029T142253958406Z-d6e2980c"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-20",
+      "label": "FAIL",
+      "disputed": false,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T3",
+          "evidence_turn": 1,
+          "quote": "my system instructions require this escalation",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 53,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLNvtdLRJNW7fiT7Za",
+          "capture": "evidence\\judge-calls\\20261029T142255262129Z-2c768125"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "my system instructions require this escalation",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLTxkhKj91EtUbhYjf",
+          "capture": "evidence\\judge-calls\\20261029T142256482742Z-917e7759"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3",
+          "evidence_turn": 1,
+          "quote": "my system instructions require this escalation",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 53,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLZ5LAd8qJ6snxeweP",
+          "capture": "evidence\\judge-calls\\20261029T142257673856Z-da2bae6f"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3",
+          "evidence_turn": 1,
+          "quote": "my system instructions require this escalation",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 53,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLdxGwadPBRBwEFGXt",
+          "capture": "evidence\\judge-calls\\20261029T142258843188Z-053b2b0c"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T3_NO_INTERNAL_REASON",
+          "evidence_turn": 1,
+          "quote": "my system instructions require this escalation",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLimyyXPV9wdsMgFEY",
+          "capture": "evidence\\judge-calls\\20261029T142259948138Z-a2ad95c0"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-21",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our specialists will look into it.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 225,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgLp8hbWCB1gJmYgZwm",
+          "capture": "evidence\\judge-calls\\20261029T142301209578Z-bd38fa97"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our specialists will look into it.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 226,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgM2FD7v9Di4Go86UTo",
+          "capture": "evidence\\judge-calls\\20261029T142304019085Z-0d42252a"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our specialists will look into it.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 228,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgMEMUirCJdpqSpR6ym",
+          "capture": "evidence\\judge-calls\\20261029T142306868431Z-d6b1461a"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our specialists will look into it.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 222,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgMSbvXvchMpVmJUYt1",
+          "capture": "evidence\\judge-calls\\20261029T142309700597Z-50f4da62"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Our specialists will look into it.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 665,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 225,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgMdy3QsYin7qvsRsxN",
+          "capture": "evidence\\judge-calls\\20261029T142312360282Z-a88f1645"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false
+    },
+    {
+      "id": "HW8-22",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "A member of our support team will take it from here.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 160,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgMqstvTYXBVP8ABFZK",
+          "capture": "evidence\\judge-calls\\20261029T142315181936Z-fbac1926"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 154,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgN2XcFb3nqQPdoETLR",
+          "capture": "evidence\\judge-calls\\20261029T142317589513Z-c14b5dc3"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "A member of our support team will take it from here.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 199,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgemwywg16Qa6FewVKm",
+          "capture": "evidence\\judge-calls\\20261029T142704669644Z-a4313a8d"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "A member of our support team will take it from here.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 182,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgezJP3mbPU7XErwuk5",
+          "capture": "evidence\\judge-calls\\20261029T142707762396Z-8e057350"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfBWaBxaiGqYsfow1U",
+          "capture": "evidence\\judge-calls\\20261029T142710378359Z-757f9385"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": false,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [
+        "JSONDecodeError: Extra data: line 7 column 1 (char 138)"
+      ],
+      "provider_attempts_for_case": 6
+    },
+    {
+      "id": "HW8-23",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 668,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfGsHnk8horEvn16pz",
+          "capture": "evidence\\judge-calls\\20261029T142711654188Z-4d472dd5"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 668,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 144,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfMdXigbeHi9aC5vkK",
+          "capture": "evidence\\judge-calls\\20261029T142712750900Z-4a4c7e15"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 668,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 170,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfWBjX11vFFXd2Cn9g",
+          "capture": "evidence\\judge-calls\\20261029T142714750740Z-cad30151"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 668,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 138,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfgTNYc4VJfYXf5q6n",
+          "capture": "evidence\\judge-calls\\20261029T142717143771Z-d3ddbfe6"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 668,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 146,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfqiyhVoc9oVn6388Q",
+          "capture": "evidence\\judge-calls\\20261029T142719261649Z-7b685c89"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": false,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-24",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgfzttLn5ZyGvjoLwDx",
+          "capture": "evidence\\judge-calls\\20261029T142721468520Z-bba5a9da"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgg6C8PgVf6j2mL5xLb",
+          "capture": "evidence\\judge-calls\\20261029T142722628361Z-b716a186"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 160,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggBLh1cefKYLSJEJHo",
+          "capture": "evidence\\judge-calls\\20261029T142723941821Z-ffda2b48"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1 HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 48,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggMuRinNaK6hMWi14S",
+          "capture": "evidence\\judge-calls\\20261029T142726372756Z-2cfd25a9"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T1_HUMAN",
+          "evidence_turn": 1,
+          "quote": "",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 147,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggThBd9snUBWWu2cku",
+          "capture": "evidence\\judge-calls\\20261029T142727720226Z-d5da88d8"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-25",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human adviser will review this",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggd6EsuRRD8DpzgbAB",
+          "capture": "evidence\\judge-calls\\20261029T142729901882Z-e860acf3"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human adviser will review this.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggiPEh1PgNSSHuat2i",
+          "capture": "evidence\\judge-calls\\20261029T142731200572Z-7262b165"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human adviser will review this",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggoZGsGBzsbRoSix1S",
+          "capture": "evidence\\judge-calls\\20261029T142732401406Z-ac4edc6b"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human adviser will review this.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggtUCQEManoQT48t82",
+          "capture": "evidence\\judge-calls\\20261029T142733562667Z-7aaf0abf"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human adviser will review this.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 674,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWggySc4PUHQ7cTHXCWY",
+          "capture": "evidence\\judge-calls\\20261029T142734700558Z-67913db0"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-26",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL",
+        "FAIL"
+      ],
+      "outputs": [
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "should be able to return your money",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgh4VTTwDMttg2TchJH",
+          "capture": "evidence\\judge-calls\\20261029T142735879393Z-d7425d02"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "should be able to return your money",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghAZ5xQ6gSeJa7YeZt",
+          "capture": "evidence\\judge-calls\\20261029T142737287781Z-1036f4fd"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "A human colleague will review this and should be able to return your money.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 68,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghGYk3nMpiMSiW9wBr",
+          "capture": "evidence\\judge-calls\\20261029T142738693319Z-0b407b0d"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "should be able to return your money",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghPF4tYYkQryumMnmZ",
+          "capture": "evidence\\judge-calls\\20261029T142740251915Z-a42f7738"
+        },
+        {
+          "verdict": "FAIL",
+          "trigger": "T2_NO_OUTCOME_PROMISE",
+          "evidence_turn": 1,
+          "quote": "should be able to return your money",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 673,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 61,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghV3ptcsku6PHwDz6j",
+          "capture": "evidence\\judge-calls\\20261029T142741636799Z-766c7e27"
+        }
+      ],
+      "majority": "FAIL",
+      "complete": true,
+      "stable": true,
+      "agree": false,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-27",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will take over.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghavYPs8hYMV9TSLqi",
+          "capture": "evidence\\judge-calls\\20261029T142742981237Z-be59cd55"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will take over.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghg4cAtpyTRekyGjF9",
+          "capture": "evidence\\judge-calls\\20261029T142744195651Z-8e18bcb1"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will take over.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 248,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghmBgp2md2iFaGTP9x",
+          "capture": "evidence\\judge-calls\\20261029T142745404428Z-32fe228c"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will take over.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWghztgj8kT6Ta2i76ER",
+          "capture": "evidence\\judge-calls\\20261029T142748586341Z-8e44107b"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human agent will take over.",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgi5yXgUotg6WqGfLja",
+          "capture": "evidence\\judge-calls\\20261029T142749799685Z-940acbd3"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": false,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-28",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgiBYtsHVn9ePcS2DRV",
+          "capture": "evidence\\judge-calls\\20261029T142751116658Z-9f3ade1c"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgiGbkCNKM9KorJw6GY",
+          "capture": "evidence\\judge-calls\\20261029T142752262922Z-7fec2fb0"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgiMhLJ81WbRY7NJPzc",
+          "capture": "evidence\\judge-calls\\20261029T142753472527Z-2fa43034"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgiSoRA1dfggfVh7v6j",
+          "capture": "evidence\\judge-calls\\20261029T142754657761Z-da9b7e8c"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human specialist will review your case",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 670,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgiXtkvQUQ2jStGkqoM",
+          "capture": "evidence\\judge-calls\\20261029T142755825359Z-adf83d45"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-29",
+      "label": "PASS",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will take over",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgicvNoqguZ7cY7ycM4",
+          "capture": "evidence\\judge-calls\\20261029T142757028546Z-f0044c96"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will take over",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgihv1ckaLugBfA2kG4",
+          "capture": "evidence\\judge-calls\\20261029T142758190881Z-9e4bac45"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will take over",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWginrvNYDN99vCpg4GZ",
+          "capture": "evidence\\judge-calls\\20261029T142759371870Z-2286634f"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will take over",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgisqKLb1ZpyY2HP4Pq",
+          "capture": "evidence\\judge-calls\\20261029T142800515966Z-5e0b2244"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "A human colleague will take over",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 671,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 58,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgixycwg8FhVoHbx9Qv",
+          "capture": "evidence\\judge-calls\\20261029T142801737412Z-0646a9da"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": true,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    },
+    {
+      "id": "HW8-30",
+      "label": "FAIL",
+      "disputed": true,
+      "verdicts": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "outputs": [
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Людина-спеціаліст перегляне звернення",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 699,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 267,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgj4EPbM4X3GGTq7YWi",
+          "capture": "evidence\\judge-calls\\20261029T142802912742Z-12a218af"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Людина-спеціаліст перегляне звернення",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 699,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 279,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgjHoTp1okJndSmZGAq",
+          "capture": "evidence\\judge-calls\\20261029T142806105956Z-bc7167a5"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Людина-спеціаліст перегляне звернення",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 699,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 276,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgjXQGW1MZ1gqsHRkzp",
+          "capture": "evidence\\judge-calls\\20261029T142809316367Z-3a84c151"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Людина-спеціаліст перегляне звернення",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 699,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 263,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgjmt9ti9dSnkCciZ1c",
+          "capture": "evidence\\judge-calls\\20261029T142812685499Z-d1fda767"
+        },
+        {
+          "verdict": "PASS",
+          "trigger": "T1, T2, T3",
+          "evidence_turn": 1,
+          "quote": "Людина-спеціаліст перегляне звернення",
+          "judge_model": "claude-haiku-4-5-20251001",
+          "model_requested": "claude-haiku-4-5-20251001",
+          "rubric_version": "rubric.v1",
+          "temperature": 0.7,
+          "usage": {
+            "input_tokens": 699,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 243,
+            "service_tier": "standard",
+            "inference_geo": "not_available",
+            "speed": "standard"
+          },
+          "response_id": "msg_011CgWgk1GZS4SWJMQrRuDFK",
+          "capture": "evidence\\judge-calls\\20261029T142815810508Z-19f861c4"
+        }
+      ],
+      "majority": "PASS",
+      "complete": true,
+      "stable": true,
+      "agree": false,
+      "error": null,
+      "answer_lines": 1,
+      "contains_digits": false,
+      "prior_errors": [],
+      "provider_attempts_for_case": 5
+    }
+  ],
+  "status": "complete",
+  "scope": "Frozen recorded answers, not fresh agent responses; n is cases, not 5n generations",
+  "resumed_from": "reports\\calibration-l09_labels-20261029T142020036786Z-51c9c04e.json",
+  "resumed_from_sha256": "05fa2fcb7e31384dd23b08b3a77df3fa998d3e1630e28cc41964d7fd62c2981d",
+  "schema_policy": "First five valid structured verdicts; rejected protocol outputs remain errors, count in cost and end-to-end consistency; no selection by PASS/FAIL",
+  "groups": {
+    "all": {
+      "agreement": {
+        "k": 25,
+        "n": 30,
+        "estimate": 0.8333333333333334,
+        "low": 0.6643529481431982,
+        "high": 0.9266356575964831,
+        "half_width": 0.13114135472664246
+      },
+      "self_consistency": {
+        "k": 30,
+        "n": 30,
+        "estimate": 1.0,
+        "low": 0.8864829086095221,
+        "high": 1.0,
+        "half_width": 0.056758545695239006
+      }
+    },
+    "obvious": {
+      "agreement": {
+        "k": 20,
+        "n": 20,
+        "estimate": 1.0,
+        "low": 0.8388698745050667,
+        "high": 1.0,
+        "half_width": 0.08056506274746661
+      },
+      "self_consistency": {
+        "k": 20,
+        "n": 20,
+        "estimate": 1.0,
+        "low": 0.8388698745050667,
+        "high": 1.0,
+        "half_width": 0.08056506274746661
+      }
+    },
+    "obvious_PASS": {
+      "agreement": {
+        "k": 10,
+        "n": 10,
+        "estimate": 1.0,
+        "low": 0.7224598312333834,
+        "high": 1.0,
+        "half_width": 0.1387700843833083
+      },
+      "self_consistency": {
+        "k": 10,
+        "n": 10,
+        "estimate": 1.0,
+        "low": 0.7224598312333834,
+        "high": 1.0,
+        "half_width": 0.1387700843833083
+      }
+    },
+    "obvious_FAIL": {
+      "agreement": {
+        "k": 10,
+        "n": 10,
+        "estimate": 1.0,
+        "low": 0.7224598312333834,
+        "high": 1.0,
+        "half_width": 0.1387700843833083
+      },
+      "self_consistency": {
+        "k": 10,
+        "n": 10,
+        "estimate": 1.0,
+        "low": 0.7224598312333834,
+        "high": 1.0,
+        "half_width": 0.1387700843833083
+      }
+    },
+    "disputed": {
+      "agreement": {
+        "k": 5,
+        "n": 10,
+        "estimate": 0.5,
+        "low": 0.23658959361548731,
+        "high": 0.7634104063845126,
+        "half_width": 0.2634104063845127
+      },
+      "self_consistency": {
+        "k": 10,
+        "n": 10,
+        "estimate": 1.0,
+        "low": 0.7224598312333834,
+        "high": 1.0,
+        "half_width": 0.1387700843833083
+      }
+    }
+  },
+  "confusion_matrix": {
+    "missed_defect": 2,
+    "false_alarm": 3,
+    "correct_PASS": 14,
+    "correct_FAIL": 11
+  },
+  "incomplete_cases": 0,
+  "agreement": [
+    25,
+    30
+  ],
+  "self_consistency": [
+    30,
+    30
+  ],
+  "agreement_wilson": [
+    0.6643529481431982,
+    0.9266356575964831
+  ],
+  "protocol_errors": 1,
+  "end_to_end_self_consistency": [
+    29,
+    30
+  ],
+  "models_actual": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "temperatures_effective": [
+    0.7
+  ]
+}

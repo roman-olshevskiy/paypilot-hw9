@@ -1,0 +1,10 @@
+services:
+  eval:
+    image: python:3.12-slim
+    working_dir: /work
+    env_file: judge.local.env
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"
+      JUDGE_MODEL_OVERRIDE: ${JUDGE_MODEL:-}
+    volumes:
+      - .:/work

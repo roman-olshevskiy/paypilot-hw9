@@ -1,0 +1,11 @@
+{
+  "commit": "1c5fe4b39cd3c62f847ab39c07206527dfb418e3",
+  "human_review_confirmed": true,
+  "registered_at_utc": "2026-10-29T14:05:16.150569+00:00",
+  "labels_path": "evals/sets/l09_labels.jsonl",
+  "labels_sha256": "b071869294003e46c88b43d4fd47ffaad2cb97154eba581e5725410e3a4c9b5e",
+  "rubric_path": "rubrics/rubric.v1.md",
+  "rubric_sha256": "a693bba38159e726d0f9723a64d0d9a84c563aa74fc9255e182535652639a48b",
+  "forecast_path": "docs/forecast-before-runs.md",
+  "forecast_sha256": "500212db139a90e62f868470f42383a5142f38e12edf8c0f2db7e09cb7f204ac"
+}

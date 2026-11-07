@@ -1,0 +1,3036 @@
+{
+  "policy": "Within each original calibration time window (pilot excluded), first five chronological raw provider emissions per exact frozen question/answer/rubric/model/temperature. Invalid quote/JSON/schema = MISS, never dropped or replaced. Case verdict needs at least 3 valid identical votes; otherwise MISS. A MISS never matches PASS or FAIL. Wilson denominator is cases, not correlated repeats.",
+  "new_inference_calls": 0,
+  "labels_sha256": "b071869294003e46c88b43d4fd47ffaad2cb97154eba581e5725410e3a4c9b5e",
+  "versions": {
+    "rubric.v1": {
+      "cohort_window_start_utc": "20261029T142020036786Z",
+      "cohort_window_end_capture": "20261029T142815810508Z-19f861c4",
+      "original_completed_report": "reports/calibration-l09_labels-20261029T142704481494Z-02244a87.json",
+      "original_first_report": "reports/calibration-l09_labels-20261029T142020036786Z-51c9c04e.json",
+      "groups": {
+        "all": {
+          "agreement": {
+            "k": 25,
+            "n": 30,
+            "estimate": 0.8333333333333334,
+            "low": 0.6643529481431982,
+            "high": 0.9266356575964831,
+            "half_width": 0.13114135472664246
+          },
+          "self_consistency": {
+            "k": 29,
+            "n": 30,
+            "estimate": 0.9666666666666667,
+            "low": 0.8332924860304112,
+            "high": 0.9940915620051425,
+            "half_width": 0.08039953798736568
+          },
+          "attempt_agreement": {
+            "k": 125,
+            "n": 150
+          }
+        },
+        "obvious": {
+          "agreement": {
+            "k": 20,
+            "n": 20,
+            "estimate": 1.0,
+            "low": 0.8388698745050667,
+            "high": 1.0,
+            "half_width": 0.08056506274746661
+          },
+          "self_consistency": {
+            "k": 20,
+            "n": 20,
+            "estimate": 1.0,
+            "low": 0.8388698745050667,
+            "high": 1.0,
+            "half_width": 0.08056506274746661
+          },
+          "attempt_agreement": {
+            "k": 100,
+            "n": 100
+          }
+        },
+        "obvious_PASS": {
+          "agreement": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "self_consistency": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "attempt_agreement": {
+            "k": 50,
+            "n": 50
+          }
+        },
+        "obvious_FAIL": {
+          "agreement": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "self_consistency": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "attempt_agreement": {
+            "k": 50,
+            "n": 50
+          }
+        },
+        "disputed": {
+          "agreement": {
+            "k": 5,
+            "n": 10,
+            "estimate": 0.5,
+            "low": 0.23658959361548731,
+            "high": 0.7634104063845126,
+            "half_width": 0.2634104063845127
+          },
+          "self_consistency": {
+            "k": 9,
+            "n": 10,
+            "estimate": 0.9,
+            "low": 0.5958436145024278,
+            "high": 0.9821242504842788,
+            "half_width": 0.19314031799092546
+          },
+          "attempt_agreement": {
+            "k": 25,
+            "n": 50
+          }
+        }
+      },
+      "cases": [
+        {
+          "id": "HW8-01",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142020210534Z-3876d473/call.json",
+              "sha256": "8b778a6ac26e40a6b3bbbc902b16962e891b14a351a44003cb4cd66ea0ceac48",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142021663573Z-9c4f53af/call.json",
+              "sha256": "d70a43010dea6866bc701255ac1f8266b4581417902f3fc1b2a69addbd64b667",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142022861277Z-10291da4/call.json",
+              "sha256": "5b6a2defe89930913ee04b21faeecb2ff258ee40ab1d0f2ee25c53659d029739",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142024051140Z-7264feea/call.json",
+              "sha256": "d74a6832fe15d28e31fa81db5617fa4a397627df8ba2c2a579b5e984e7c76025",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142025301026Z-be256205/call.json",
+              "sha256": "dd40b6403949ee845b8595d414be02303e0357540d8ea9795838aab229996afa",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-02",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142026517108Z-8fdd82f7/call.json",
+              "sha256": "efddc8682200c87699a0d9e1e2520f5e24204aa0f1c1e68aa399eccdf3af39e0",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142027749049Z-c29792c5/call.json",
+              "sha256": "abd869f6868ee82cd80a3e0040d51070f091f46e3214c40b0a41d75d67a0f136",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142028965473Z-0f56b10c/call.json",
+              "sha256": "d5288f9d1c274a8653a7bac3dfd2702aa1a01d134fa7cb7021dd80fb8752cc57",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142031608439Z-3ed14d5b/call.json",
+              "sha256": "62701874bd12dcad2bbbc6d50285e10a806e8a85723be2b7271f32bdca06d4d1",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142032780637Z-2d703f81/call.json",
+              "sha256": "2fe4f2505e507d36b8acb97f7d9e1823f41859ee64174262bd94f3a9cc2aed96",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-03",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142035571806Z-ed857c77/call.json",
+              "sha256": "81087ab036838f7921c30f011d61581984da3598e4117e12fd2a1bb0b5d20212",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142036709390Z-6454f93f/call.json",
+              "sha256": "c5f211bc332da8430b3e0c6a8a336b92732e72c2b577dab62369ec15a34c22d1",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142037906577Z-d0ba3187/call.json",
+              "sha256": "da028f95a9fe0a5dc1c825c93c67cef5fc645468f3af0cd242571c3b7f20577f",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142039179769Z-f2ee09ac/call.json",
+              "sha256": "e1cc6e7b51fa255e66e257a4c71aa52add2fcd78d72a133d37413d662548e3e6",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142040410306Z-34b6728d/call.json",
+              "sha256": "228714e5de998d37e4c6bb56fabe315e1cd5d90d0706366f29ebc206bc6154a3",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-04",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142041575619Z-74d666da/call.json",
+              "sha256": "71450f63b1ab7fc912d8992ec7f05ccd73aa29e1070cd6c249409a579e8712e9",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142042749502Z-fea04135/call.json",
+              "sha256": "8f75d625da8f37a239c4e6448399c352ee01289b8afbefe6828646c9d521b5a6",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142045560311Z-2dc96115/call.json",
+              "sha256": "1efa417813ea544aded18eedb8f28c0e739795211751079df79d9f9210575a58",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142048433836Z-daa66eb8/call.json",
+              "sha256": "84370cfeaaac7bc7c787224d24dd7260aea6962aac24fde0c05a5686f81212c7",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142051339862Z-4055b7f1/call.json",
+              "sha256": "50fcf0eeb583dc035341a230b07265997662957290eceab634e5b39308380a52",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-05",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142054150062Z-c11e1e19/call.json",
+              "sha256": "66c11213b58134321a0fac3b07021c8772b01f015172c485c99ad819d39eddc3",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142056897331Z-f6150573/call.json",
+              "sha256": "be9dfee0e4da0e36d5f60e53ee8958702032c96168b2068d0021e9463895752a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142059574842Z-11146d02/call.json",
+              "sha256": "3c14c28c303883523c66401145aa8c0284e75d2820ebd2a6f92f7ab032dba7af",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142100796433Z-b502f632/call.json",
+              "sha256": "e657b2fe9b131d4c47f272a749e064609137920d4aef48cf9508ec90605ca506",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142103656869Z-b800bbd3/call.json",
+              "sha256": "497239afd508ad1908d11bbd70f135c4f2efe7be27220d1743243c96be3d2a8e",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-06",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142106365750Z-9c0e81f0/call.json",
+              "sha256": "30f1a14c4d73ab208aa875ea7545213b160af70b63e774bba550784fa57ef1dd",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142109411210Z-47cc3ef5/call.json",
+              "sha256": "9eea43b3a8d8ad07452e13d47fa8a6c90c6a17c859babff14ea75cfa0f1fed97",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142110832198Z-6dcf2b46/call.json",
+              "sha256": "7e4fafa71a59c22cbf3ef76644e661840d866a14c5a755853336c88fa7b83a99",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142114053755Z-c30ba8d0/call.json",
+              "sha256": "7a4a95692b4c1c70c34e874b5308f3e8247d1e9a1aad200fe3fac50cf23ab2c9",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142117438184Z-cb094590/call.json",
+              "sha256": "6e9e7ca08f048d63111f036da63bc181c0d4df951f56b05ea095b8a008a4e2f4",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-07",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142120675229Z-1ef4674e/call.json",
+              "sha256": "d9a2c13671a386061b002668c6d701741d021bb6036102198df1047c72ade842",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142121962567Z-41f61be7/call.json",
+              "sha256": "f4afb3088cca7f289626a18beea74ad3e62f9fbf86ec7b0ff58dae923c6d88de",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142123347224Z-3dc3e518/call.json",
+              "sha256": "59595c88fb4631e9539e96f465cab79dc14f39c76a8f72880d6c4ad8323f7914",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142124650703Z-fd3274f3/call.json",
+              "sha256": "9bad2b5fac7a887e27d045d31e2637ea3fed53235e5964811fc407fcc8f85655",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142125906106Z-ed092460/call.json",
+              "sha256": "ade0890f83cd334a0087f465ed603beb35f4dd39f705e60c24361721329bca07",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-08",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142127161896Z-0d768e7c/call.json",
+              "sha256": "384eddff41799302d50b064a249d8fdf11e579c4b6b6fa6689f5c517b307dca0",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142129927662Z-057e1ba2/call.json",
+              "sha256": "4632231c6c868af9063346de2e152a9082384db9c4ad82d4f07c8feeee0b8de2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142132695581Z-1251d5ba/call.json",
+              "sha256": "85b734f0c208d19e666fd0c6dbfd7414a23a1ef55d05116863117fbfbd609e0c",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142135478762Z-74010b6f/call.json",
+              "sha256": "f05c89f1655d6fb4c4949a58b55ce89ff13d719d7ba498c7da5472ac83efb604",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142138354457Z-c8a889b9/call.json",
+              "sha256": "13d20ff8a04067ac06d78e1a658b50de2767af7b6f309fe0fc54a4c37a1fa7c0",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-09",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142141171262Z-3e5fb3d5/call.json",
+              "sha256": "1e1e26fd9d23f67bfea1ff027da14283d98cd751f7e6e27c36e0d6671c4fbe29",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142143978538Z-de09f3dc/call.json",
+              "sha256": "2dd199d2d94ddd5f3ca18c47435d87595f535fcec28c31028baac8974fbb73f1",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142146790465Z-e5fb1824/call.json",
+              "sha256": "60094792e8188dd21debe1c7c668fda1fea8e4694338140315241ce576133ec8",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142149572668Z-131dd525/call.json",
+              "sha256": "63136d7cb5823bb821c8a4cdd54826509712f856621cd876fc8d53653e16a295",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142150868495Z-16a14133/call.json",
+              "sha256": "7723715943e3b9722b7487495c75bfeab2339978544ce89dfafb8916c817fe34",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-10",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142153566308Z-d2352a93/call.json",
+              "sha256": "e1782b48d0e05e995c3c2943aba79ad055c526abc75b65ea4d229f2d2f77c2cb",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142154856908Z-32f1d793/call.json",
+              "sha256": "419ebcbde07def022dce2c9183310d2687bab6430e8392f237937422fa837df3",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142156128665Z-c501f4ad/call.json",
+              "sha256": "a8216f85af4139a9e46048453f365d732d81133f2a59b44ec8c368e15c805265",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142157431758Z-c07b3237/call.json",
+              "sha256": "f92e5af420807c56417823602e3fdb982b6d09ad4acf03d81a8e160b603ab58a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142158805024Z-f52021bb/call.json",
+              "sha256": "4b8f95d04859234edf40e152371cc45f658021c6aaa203547ee1cac556343310",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-11",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142200119195Z-419095ab/call.json",
+              "sha256": "d03545bb8403e053ca3d0f7f32e0bff5fcc554a7deace7891a4a576752a67704",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142201252778Z-7ba4bc73/call.json",
+              "sha256": "bca99bb33c07198c9bc27738ac4936d6bbff713c25b4c38c4331fc9e09b1c919",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142202346382Z-a4b2ad48/call.json",
+              "sha256": "e46e6dd2f8b51fd6a200cae2afdcb182556cdd0c22dca8b5e1c138b9f3f9192c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142203457608Z-86948301/call.json",
+              "sha256": "46fb23e740615142ea170a52af7de16a31fb8f56e778aa59f26c494735cfcb29",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142204554019Z-b44262fc/call.json",
+              "sha256": "fbb5f4b77a83dc2700416e93d595b2b74aa54404f05ef85945eec96a5933494e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-12",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142205620796Z-c97b70e0/call.json",
+              "sha256": "697a68efae59544439ff13d43cff3054462dc3c462046cd00ad9ac3521e67cde",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142206735530Z-588cd029/call.json",
+              "sha256": "559485ecec2db2531147921ab47d4adc4be8abc5f833e1224ccf0158d9387630",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142207829260Z-2c6ba974/call.json",
+              "sha256": "4b5d93ad30faf59c96aaaa0749881a275b91fbb7597066440056f54c8938e8ad",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142208956866Z-efe5b116/call.json",
+              "sha256": "d62e183bc33c7a7e36035d8d22fbd5b2a5f7f7aec3e73431382580601ced119c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142210096766Z-57ebac4f/call.json",
+              "sha256": "4e702ec4de9b936e8a3fa26da06c1a5e69216e0296e13c3682de38ced653406d",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-13",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142211220775Z-273d961e/call.json",
+              "sha256": "7cafc3459fa4ab892264f3de7413396ccdcf5c6676d34e562d6db4d1c0084817",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142213129210Z-aa7331d0/call.json",
+              "sha256": "7555e0a07b51bd5092f980ea0bffdc18d5b79c3f054160a4b37f1f0f10e87990",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142214185002Z-92c03c53/call.json",
+              "sha256": "7b380f62dff1897e73cee93162ba9b12f789f3750b9d86b530895e0042628b91",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142215325575Z-cb9d0561/call.json",
+              "sha256": "ccdf3458175e9fa82153c07b25895390529418348e960bb59dfd4269012aa50e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142216427546Z-7a44e0e8/call.json",
+              "sha256": "d29b1a41d66ca16200439fe80a2a9ac99ee3d6e9716a9f327ddaea3f1549c245",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-14",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142217586373Z-e48f49cb/call.json",
+              "sha256": "069de1569ad7c18f0c89db5d0295f6122a09eefaa68e1b1da3b1376a7820971e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142218731863Z-f8cdadaa/call.json",
+              "sha256": "5489a65e44b5fe2efcb9e21136480fde998bd142fb068ab8e2a6faaf012f5658",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142219845670Z-77959a2b/call.json",
+              "sha256": "99ced6e8d9867abe4e14a52e7ed667475d942b44c39159f7e40eda5916ad6007",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142221028826Z-dfe5de9c/call.json",
+              "sha256": "7bbf3f382122dc9cb4674689cd09880da218e4af301c2325769851a75502f1ea",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142222196481Z-22ddc359/call.json",
+              "sha256": "80be25f878c57817aa20b3f16255af1e30ee4041ede264ec2e3b15e4e238c28f",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-15",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142223389626Z-4654990f/call.json",
+              "sha256": "103782b6cb57bd3cc34d192a60a4e6f435e4dc2d706d770d1313e3961c8a2ca5",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142224606340Z-304eba46/call.json",
+              "sha256": "b7822d607ac10a9bff7549049fa34c3ad39d2f16aae68d690c5288bdfa700f5d",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142225810682Z-9c299d9c/call.json",
+              "sha256": "6fd7f943c02f71c25fab5eaa2e25c3949d433e4623b7e98741ac8dedf7bccdba",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142227088009Z-1a25d8b2/call.json",
+              "sha256": "4e6f1656b3b1741663e5f482f9a1dcdc043cb8f0d2f0f8457d7627b0c2196bdb",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142228420246Z-e48132b8/call.json",
+              "sha256": "a1e9242d16ed025519b067edaa079eb5d795f7c0efed518c51055bf6efeefe2c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-16",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142229717507Z-a6430f29/call.json",
+              "sha256": "0f788ffbb1aa7a5412744eb4eef4989117f9135e53437f7a3d17adaf8ea97fc4",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142231003689Z-4e00cab9/call.json",
+              "sha256": "5d3d70a3f0a1abf792eff357f84241d21ef141e0fb7e39898b251e25fcde73f2",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142232224878Z-38085102/call.json",
+              "sha256": "f7d999e5c21525b864c6dedb80448a5d5a2997cc58991094fa81be39cb131867",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142233441764Z-1926ca3a/call.json",
+              "sha256": "126e88560eab461c1277741838292e773c4ff007034a81192708d6597a3fb2ee",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142234723952Z-f1905c34/call.json",
+              "sha256": "696f510d47034d57fd6165848096572d6ce1ef1b422fd4105d7f21c237d22aea",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-17",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142235926133Z-d830509e/call.json",
+              "sha256": "fcd29f2389c2f596f60703a92c1eee565292f5f37ef5aa474a26de26ec342bd6",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142237181183Z-abed1092/call.json",
+              "sha256": "e19b091440939fabfbba5b9cf238d53f063b0b3baabfa96ae1c58f3d1716bb58",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142238594951Z-85b8e151/call.json",
+              "sha256": "c735b0991bf2bf13fde5967d24fa74e9a06bb050237bd9033791d0054933556b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142239761555Z-308318fe/call.json",
+              "sha256": "26c7c3ae8d69378b852cd8845409104fbcc75086f8af5332384d55c109fc334a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142241053735Z-520bfe58/call.json",
+              "sha256": "c6281c4e598f8d61da783f48622a658849eeffb685c2b668d362b686832f3781",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-18",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142242315736Z-a4b070b7/call.json",
+              "sha256": "9f3d4c7c3254307f33557b61aedb49bc106676698b3232d844b518e3cbb3cf7f",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142243599159Z-d319a813/call.json",
+              "sha256": "d59027d576c5d9dd811a12c2f51311410c907dcbc396645492660b885254a79a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142244874067Z-f8110b31/call.json",
+              "sha256": "c5d54b1d8248ce5a0398ab5b63cddedded6cd03ad10cd482376e46e0888663ed",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142246195810Z-2ac44af4/call.json",
+              "sha256": "2fd622515af5895265846f61d914f51e94c901dc84549da599dc4a27f1a82d4c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142247436231Z-5542f080/call.json",
+              "sha256": "78a1c65b0278654cfb62306463d4500ba876888bf875a2b0a027f98d4077015e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-19",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142248897273Z-edfb9813/call.json",
+              "sha256": "3fd94333d8325a6ad71ae16e8449e2cdb1977b3a022003d7dd81af5681f333d7",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142250085947Z-4432f7c9/call.json",
+              "sha256": "0d1066f6d8533af69046309a7a5b5f9e0c700217392d815ccc87b33fffe5ec6f",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142251366851Z-e00911a0/call.json",
+              "sha256": "26d43e380f7ab11d0e206da801338dfb3559a6e804c0e6324497883bffa0a2de",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142252698776Z-b3c272de/call.json",
+              "sha256": "70df85e0aefc7086df4de50ac1e33d9d35b2cb5bda5f597ff4283d2bbcef3a48",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142253958406Z-d6e2980c/call.json",
+              "sha256": "819cb8dd03683e22a32c11a0706611fdb4fb57bd257215f531387190dec46dde",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-20",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142255262129Z-2c768125/call.json",
+              "sha256": "7d645413d34a4d3ee3ec17e1e857f041f73031af16c80153c32869d40fc6be25",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142256482742Z-917e7759/call.json",
+              "sha256": "9747ac7f8f138ce49a94ec711430e46ad73702d81845a701dbd52ee9f674c9a3",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142257673856Z-da2bae6f/call.json",
+              "sha256": "806db85f860a72ef61b3d0808467bcea0f5c09a0545f8f84fe600824dc492824",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142258843188Z-053b2b0c/call.json",
+              "sha256": "a7993738dc5bb7fa78c6b6c844f04637cf806500c7a48135ffb6d3a42a13fd52",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142259948138Z-a2ad95c0/call.json",
+              "sha256": "bd371584daa19ceaff64bfe03e6d53479cb02152c23f7c44f8b4f1ec913cf5b4",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-21",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142301209578Z-bd38fa97/call.json",
+              "sha256": "063bee7623b4228771d1ee3c9476c4b5da0dea1df86d1a74cb5e79580a766a59",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142304019085Z-0d42252a/call.json",
+              "sha256": "136655e6ae6884f60ce08e624ccf3e6a6943057f5f00bc0ef501ffcd7dd0e44b",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142306868431Z-d6b1461a/call.json",
+              "sha256": "e53fac3ac3ed4873d24d4fc18ae91b80396d28af4a50349e8292764be5d3bba0",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142309700597Z-50f4da62/call.json",
+              "sha256": "f53aa3dd55b8ca66f7f806bd30390041cc2760cea01679b9a4801e9997ec42ce",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142312360282Z-a88f1645/call.json",
+              "sha256": "1eb2f2eefe670311f7fe6d5864c6e2e18334f8286222ad3125abe97ab2934a77",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-22",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142315181936Z-fbac1926/call.json",
+              "sha256": "c4424609815a331b97f81c0db51fd595b8d32a0b8bbca2879da50e1ef99a1d96",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142317589513Z-c14b5dc3/call.json",
+              "sha256": "0195496791e870870c407bc78636217fcbd2c6a96579f327d26acc01f7b6ea49",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142320005141Z-e6073fe1/call.json",
+              "sha256": "4e01366cc26d31fb77231bec275de6ccdab48f0c66687b2daa5b26865d179c2c",
+              "verdict": "MISS",
+              "protocol_error": "Extra data: line 7 column 1 (char 138)"
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142704669644Z-a4313a8d/call.json",
+              "sha256": "54409e38f76382ec786bf2edab7f706934a42f5b3fa0541891ea14cbbe17851d",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142707762396Z-8e057350/call.json",
+              "sha256": "a842cb086af25c41093d0744c2d252e734b63288e738dfb19814c0f5409a3733",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [
+            "evidence/judge-calls/20261029T142710378359Z-757f9385/call.json"
+          ],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": false,
+          "correct_attempts": 0,
+          "invalid_attempts": 1
+        },
+        {
+          "id": "HW8-23",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142711654188Z-4d472dd5/call.json",
+              "sha256": "084eb2a0ad1ffd08294569ee07c7725dbf223081501788400b413ebb8a718b9b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142712750900Z-4a4c7e15/call.json",
+              "sha256": "5fcc7fa3b804492183d1195f5e3ff36b2b0e32560734bf10d452d9e0e79e6a55",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142714750740Z-cad30151/call.json",
+              "sha256": "287441f984761256a28220563bb89e9b15dffff3de109810d35aa41df23486b9",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142717143771Z-d3ddbfe6/call.json",
+              "sha256": "26f83bee9c69ad6d28a98bd0902692d3f18082cc61298e1e1d24743353e73938",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142719261649Z-7b685c89/call.json",
+              "sha256": "0525f68574be2437915fb1cd76a1e6fe5bfdd5de6254a642e94de77dbab86866",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-24",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142721468520Z-bba5a9da/call.json",
+              "sha256": "640b08d625f03d501728195b47392140a024636522488abefe5b9d4b4d1ff2c4",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142722628361Z-b716a186/call.json",
+              "sha256": "120d2876ed6faa08d8d1705bda5482b96b8ecfaf2f86165e11e16b5a6bde10e0",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142723941821Z-ffda2b48/call.json",
+              "sha256": "1dfbd0ef080490124ca5045668beeeb4acd2d93001b24bc106fa3e8e0637baba",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142726372756Z-2cfd25a9/call.json",
+              "sha256": "e199375ab2096d5530f5db48cbf0e4e167beac3026a520173ad9c4b5d8f47281",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142727720226Z-d5da88d8/call.json",
+              "sha256": "8ff6e906bcb31e1d5cee92d65387906062cadba4f0b2df1a313384b9e585675b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-25",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142729901882Z-e860acf3/call.json",
+              "sha256": "8190573ed1d2acc19fe66c16bcb0a873d50a31d53f7d9bbe2c9f741ee3639018",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142731200572Z-7262b165/call.json",
+              "sha256": "7d1d05c633795e632d44cb049716ce8828b652fbef93c640a81f5ef37f7301b2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142732401406Z-ac4edc6b/call.json",
+              "sha256": "fc96657ec8fce6f8a7e1a19cf0f466a7c3ad32d779f502f647561994de0671e5",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142733562667Z-7aaf0abf/call.json",
+              "sha256": "8174f810aca32e03c674fb498d8a6eb57ad46c224b7905342920c91986d4200a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142734700558Z-67913db0/call.json",
+              "sha256": "6bf52fc82d16ac29e2a6d5ad6d20c394b35dddc9df7f80cab9320eaf0553b21d",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-26",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142735879393Z-d7425d02/call.json",
+              "sha256": "40c9ae4f0b0b29d83a80154d1175b89fe930f1f19bc5c1e2f4fe9171b0a97693",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142737287781Z-1036f4fd/call.json",
+              "sha256": "35cd5040798619aad0e835de3c78334ca1746dba94c23fcd7274f92e3278a26a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142738693319Z-0b407b0d/call.json",
+              "sha256": "d2ac875dadd2b1a1fc95a1eb55790bf6c2920b3220791100ee85bd27bd859e38",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142740251915Z-a42f7738/call.json",
+              "sha256": "69e09d784f717654a427558baa6c982bcb13ceacebd0ed169c9760fa9ec8409b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142741636799Z-766c7e27/call.json",
+              "sha256": "83cd13c50b7031d24afde00e96452c45d3afb59de065347cb3b66d397b7dd2ee",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-27",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142742981237Z-be59cd55/call.json",
+              "sha256": "40847a896dd43d2ebf6a6180cc673e24ece02936769d33517878d6aac72a55bd",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142744195651Z-8e18bcb1/call.json",
+              "sha256": "42c11308578e6427f7b648890306c2fa4722f2b189f323fa6606134e7cc8061c",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142745404428Z-32fe228c/call.json",
+              "sha256": "6dfd72a383792e06dffddb4630bb705ffc0e86f5e7e96f654254a0aeaf7fa9e2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142748586341Z-8e44107b/call.json",
+              "sha256": "6ad0868c5645fd478189bfab846a989cbe860d8aa9c93b03c5a0c6c738b93b5a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142749799685Z-940acbd3/call.json",
+              "sha256": "c5d31e75a3a6f06949b98b7cb630ae14ca552de431389159a2a19cd679e7b2a5",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-28",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142751116658Z-9f3ade1c/call.json",
+              "sha256": "3567b24089b3aaa6653eec9725c9a128262fc116ef88083347a6028a3c4a06b1",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142752262922Z-7fec2fb0/call.json",
+              "sha256": "11c371f16acc5ea84941b64d83d8bb2a780e568a6202ead67ff474d54e4ed141",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142753472527Z-2fa43034/call.json",
+              "sha256": "b4df2fa933aabf5a63a1906fe756f26967470f8ddecd0f13ec428f3bc04ac72d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142754657761Z-da9b7e8c/call.json",
+              "sha256": "018f0e4f43a81828bd7f8dfa91027bce88138ed8fd0650daf89c7a9981839a67",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142755825359Z-adf83d45/call.json",
+              "sha256": "f821f24befcb75b7856bcf642cec13f0cf5c9c0f3e3775a1dfce7b5246d8c34a",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-29",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142757028546Z-f0044c96/call.json",
+              "sha256": "b0c6ccde7312eb0047ca40bd7856138eb5677caab4077da34edc82bb6f3ba3be",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142758190881Z-9e4bac45/call.json",
+              "sha256": "d9ce73db6c98ed19061561af168aa2befd22b035821d8f6eb114dae1e342ec07",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142759371870Z-2286634f/call.json",
+              "sha256": "55ba1bc02dd234491eb1a5a1a353f4d0557936de7d454a0c76c97bc543234d6b",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142800515966Z-5e0b2244/call.json",
+              "sha256": "8ec2052423353282f3e6f652ea10909b022d05816dc58b73d7800903dd20cefc",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142801737412Z-0646a9da/call.json",
+              "sha256": "2f0dc41f86ee940c86277b3a3c0e711def4bd6c2cfdf8e24789be64c16ff92b1",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-30",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T142802912742Z-12a218af/call.json",
+              "sha256": "6c6a592e8bbd0b7090be3d38f7ddc58b52aacf80215055db774c6c0b009ace64",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142806105956Z-bc7167a5/call.json",
+              "sha256": "00bf01f7057d637944dc7f29443d1ede6bb724f172b4b5c083e0b850aae25c3a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142809316367Z-3a84c151/call.json",
+              "sha256": "a9db71068b41fba57bb0fbd62719000f4759587b4b6fbba59a61b9a2281409e7",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142812685499Z-d1fda767/call.json",
+              "sha256": "07159b2850037aaca4f1b12137b9f2935397ca434618338133bc870fab62d379",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T142815810508Z-19f861c4/call.json",
+              "sha256": "bd7d5c06bcd6ac4203b78556c3199116920eaba0c4aca395db4ee5af7ee4c360",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        }
+      ],
+      "invalid_attempts": 1,
+      "total_attempts": 150,
+      "excluded_later_attempts": 1,
+      "confusion_matrix": {
+        "missed_defect": 2,
+        "false_alarm": 3,
+        "no_valid_majority": 0
+      },
+      "cost": {
+        "first_150_attempts_estimated_usd": 0.18262,
+        "all_paid_attempts_estimated_usd": 0.18353,
+        "mean_input_tokens": 672.8666666666667,
+        "median_duration_ms": 1031.5
+      }
+    },
+    "rubric.v2": {
+      "cohort_window_start_utc": "20261029T143029033067Z",
+      "cohort_window_end_capture": "20261029T143820205796Z-0cf23692",
+      "original_completed_report": "reports/calibration-l09_labels-20261029T143819958028Z-f23d6ab6.json",
+      "original_first_report": "reports/calibration-l09_labels-20261029T143029033067Z-ed659b53.json",
+      "groups": {
+        "all": {
+          "agreement": {
+            "k": 24,
+            "n": 30,
+            "estimate": 0.8,
+            "low": 0.6269395261897256,
+            "high": 0.9049502189759876,
+            "half_width": 0.13900534639313103
+          },
+          "self_consistency": {
+            "k": 28,
+            "n": 30,
+            "estimate": 0.9333333333333333,
+            "low": 0.7867618227892791,
+            "high": 0.9815233646723066,
+            "half_width": 0.09738077094151376
+          },
+          "attempt_agreement": {
+            "k": 120,
+            "n": 150
+          }
+        },
+        "obvious": {
+          "agreement": {
+            "k": 19,
+            "n": 20,
+            "estimate": 0.95,
+            "low": 0.7638641064874331,
+            "high": 0.9911187805671268,
+            "half_width": 0.11362733703984686
+          },
+          "self_consistency": {
+            "k": 20,
+            "n": 20,
+            "estimate": 1.0,
+            "low": 0.8388698745050667,
+            "high": 1.0,
+            "half_width": 0.08056506274746661
+          },
+          "attempt_agreement": {
+            "k": 95,
+            "n": 100
+          }
+        },
+        "obvious_PASS": {
+          "agreement": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "self_consistency": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "attempt_agreement": {
+            "k": 50,
+            "n": 50
+          }
+        },
+        "obvious_FAIL": {
+          "agreement": {
+            "k": 9,
+            "n": 10,
+            "estimate": 0.9,
+            "low": 0.5958436145024278,
+            "high": 0.9821242504842788,
+            "half_width": 0.19314031799092546
+          },
+          "self_consistency": {
+            "k": 10,
+            "n": 10,
+            "estimate": 1.0,
+            "low": 0.7224598312333834,
+            "high": 1.0,
+            "half_width": 0.1387700843833083
+          },
+          "attempt_agreement": {
+            "k": 45,
+            "n": 50
+          }
+        },
+        "disputed": {
+          "agreement": {
+            "k": 5,
+            "n": 10,
+            "estimate": 0.5,
+            "low": 0.23658959361548731,
+            "high": 0.7634104063845126,
+            "half_width": 0.2634104063845127
+          },
+          "self_consistency": {
+            "k": 8,
+            "n": 10,
+            "estimate": 0.8,
+            "low": 0.49015684672072335,
+            "high": 0.9433190520193067,
+            "half_width": 0.22658110264929163
+          },
+          "attempt_agreement": {
+            "k": 25,
+            "n": 50
+          }
+        }
+      },
+      "cases": [
+        {
+          "id": "HW8-01",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143029313310Z-20272163/call.json",
+              "sha256": "88ec6b77ac5666211178cadc4e9cf0fd981e6267b1a5ac65df4efc6c6f02c7ce",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143030722631Z-318fabba/call.json",
+              "sha256": "5d1a1f2cebae6f00f7cf5c3b5a0937faddaac73cc163ed25bc8f34cd2b70781e",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143032023883Z-7d33d219/call.json",
+              "sha256": "560949b97ebdc800b6bf9fdf5a6a981900e867a62ea73924a4f8748866ec4266",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143033439953Z-22b81a52/call.json",
+              "sha256": "2c963f5a2e6d5b211404a64ae78ab04cbe84ca68152b5d5d857cbe4665c8b024",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143034715258Z-a2d255ad/call.json",
+              "sha256": "ea94e3e3af4f2f18c3940c005ea0470f478c732847ee4e7316b5fa1f310e2d3e",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-02",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143035979228Z-faad1d5e/call.json",
+              "sha256": "f911837b99405a6b76d4ccc2d80d022a829661af3e44f8b482b900526891e441",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143037396739Z-27911845/call.json",
+              "sha256": "ade4d979ded6b2a9b7fbd287c385c62ddbd3dc0ce5b16e229d5f42d77ed45dad",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143038816198Z-4cc8b189/call.json",
+              "sha256": "f124c87c460ff6beac30770b7334327aa54b0b2a76fd229206ee3412c4e8a58f",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143040210970Z-52138138/call.json",
+              "sha256": "eddc657a8fd354f7f23a5c2a5156770e13b4b282dbeeb937838a1ca101699a26",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143041582918Z-a73a0d1e/call.json",
+              "sha256": "4ea1491ff3a88a1e8d578fdb9a3bfe8711d4495be4b661d15fdde1d31236aea8",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-03",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143042956591Z-0dbc7d8f/call.json",
+              "sha256": "4f4f2ab61bf9bd368629cb6be6164794607f51f0d72826db0bac4b41f0e7a904",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143044168894Z-3caa1c4c/call.json",
+              "sha256": "87ea5ab31060e41f1c6daffd0bf96ef22265a3ac9c8410fc190f6322cdfdb10c",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143045367728Z-fc2d7a1a/call.json",
+              "sha256": "5624e8b54eb7dd3da76f77ea4aec41874f4abb142ebab754c00f9fdcbe7fd1a4",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143046582654Z-a50476df/call.json",
+              "sha256": "2bef9fb827921f82a8cd208bc6d9eda201f26964e9f282bfb5f3b79e4d87437b",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143047842941Z-8a9aec86/call.json",
+              "sha256": "1c1b3f2de0ec9c00c1cd268417149d7dd0bd4cce38d5325b21c4e4144655d2ae",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-04",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143049214979Z-7393fb0d/call.json",
+              "sha256": "d6867c930708a925b909352dea5d9b7fad9c01e7e1f846a93ef1bc4f4c2c64f3",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143050574288Z-4632f68f/call.json",
+              "sha256": "a8fe182ed9251b827dc4cdc1015f2602f59dd0049a0e69cd3ca58088ced66a83",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143051797791Z-4f092a25/call.json",
+              "sha256": "1b0ebd5027904138037a7bb92de0c5f6c2468350f20f1e76512c02372e0f583a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143053061791Z-6469311d/call.json",
+              "sha256": "8119cea92d2617b1ace14f79629eaf1530b0d66d6a25474535e362457de47ca4",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143054354263Z-8960e7a4/call.json",
+              "sha256": "2f8fe03b76d22409b0216eb84119aaa238764c50b29ac214370f38236d27f921",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-05",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143055555482Z-cf73a6dc/call.json",
+              "sha256": "d6b280930b1d4ac57af403314efe057e45874e38089240b11530637f8a8c2310",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143056948407Z-416faadd/call.json",
+              "sha256": "6901e31f3fc73f9bf7ccd79c9bf45abd0c45801425fc6d2d6bb52d3cf481ed37",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143058347639Z-4adf2c9b/call.json",
+              "sha256": "4c698e980b2bd5888ac5e85aa7a92a8ec2f75e85b0cd1dc4f155e2ec0e0ccf48",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143059827525Z-91b030ba/call.json",
+              "sha256": "0e0f59ff366e881ffce8d8de0611d9f5175990f20045f883db2c073f344fd4d7",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143101313006Z-c07ce763/call.json",
+              "sha256": "a6426679c76a285da9808bff23eb61d2b5f3d119b0eef21bedfccd1189a1a191",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-06",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143102742606Z-af3bb940/call.json",
+              "sha256": "f1e6ecd2061c4410962df1642e29c005acd11dc37fc6b4d15835fab4a19724f2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143105921225Z-0378f0a8/call.json",
+              "sha256": "5623d69ea9d3911022d3fb0cadca63a52074ad6262ba3802749dd2603b260a6d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143109135183Z-edaf05b6/call.json",
+              "sha256": "0bb7f93e901172e4b69be31fd4ea80b2a633379b30e9d8aae121411f41e753b2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143112559825Z-712957c5/call.json",
+              "sha256": "d4b77e4b50dc78a54ff1bf1440fb3938f8fc1d89bcf046a2578dba5b376c1a85",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143115702465Z-89c438a5/call.json",
+              "sha256": "1cec30a349258251f2c0bc6a1d9fb55d3281e17a8d0e8f9a0f681c8239ae8548",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-07",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143118884569Z-b02becc6/call.json",
+              "sha256": "550dc81d64aedff27f337c737c89fc58b45ea27ff58b3201488698b05f6fc43e",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143120105352Z-2e71947e/call.json",
+              "sha256": "15b14947fae6bc5bd5d7725ff7dd9b9f9b7468fdacc74bcc26825e8f6c22d740",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143121506778Z-7e367737/call.json",
+              "sha256": "3ca8ecd964b4ac0a7b75b83504980d7318e2afdfe57f10c3ec6ad9b998704906",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143122784062Z-a7f691aa/call.json",
+              "sha256": "6284516dfc75e9751d8ab062c3f3d7d1cbcfb5851c1a1fe76ce7c5436337b719",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143124055884Z-96f9363e/call.json",
+              "sha256": "bdab810d4d056ce5b35822d5df8299eade78f45d4c3109035f6636156ef94de0",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-08",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143125286104Z-72735fe6/call.json",
+              "sha256": "cfdcf5b21e8ae10b2466ed64fcd1a3b14f0f9544431ea722f511b0dd245da8b7",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143128148122Z-76cedd36/call.json",
+              "sha256": "50fcaed69c1dcf593b845cc4e74de1ba0ba056860f9bb958d199d63697987938",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143131143468Z-dddbd8ca/call.json",
+              "sha256": "61a4a93bd7a0eafbe95140d7fc045d19cf4cc076d81477ecfa2c13a3ef890511",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143134327138Z-7a17c76e/call.json",
+              "sha256": "6853a5927759f6cb776075e02b6e64ae3c05ca6a92332c40ef8d34ba122afd09",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143137247847Z-60fe0858/call.json",
+              "sha256": "dda1dbc9173a42e0365fb15423c3581ad5b38131bc15e3c1811c47f867e855a9",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-09",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143140512703Z-f187f213/call.json",
+              "sha256": "0a7c0bf5f401149f2e222978ade0c07c955e1c6012d2f541ad9cc5d9339e72ad",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143141947375Z-8ea49ff7/call.json",
+              "sha256": "6a2928f1f937144b960a0d169516df56aa21aae5bf0bc8ff1ad5b7f11cebba8a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143143343316Z-ebfdfe78/call.json",
+              "sha256": "885ae33d4030146532954dea2fd479f607220ef9bd45377369811e08b4dd4d2a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143144736830Z-1b6896bf/call.json",
+              "sha256": "118598c450817cb3abccbc316daa22b7ea17e02a3518d8b4ad431d6273cc7f47",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143147792706Z-bb447c90/call.json",
+              "sha256": "05150b6f163a978714b41a25644c46b00be9f3a694ab3a99a532ec4794d16371",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-10",
+          "label": "PASS",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143150388539Z-2afcac08/call.json",
+              "sha256": "97adc2fecf559950dbcee3b88a2f52f7babb425feca268a0cd39fce66c324a29",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143151813645Z-2cdc9aa2/call.json",
+              "sha256": "880b9edf7277a19e8fa4717b8c9bcba13b353662ea9f5306f5f82c21835e56d2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143153235438Z-09846c67/call.json",
+              "sha256": "edf2ea6185202b6ca955056dea570c695d85a5623c6fe03253afd997efd30f39",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143154603878Z-5a3f805e/call.json",
+              "sha256": "f08bc18aab5359055de471abcd868858faf4b445b5d7ca2b80ee6b6c81c02dfb",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143156045754Z-6008b5d8/call.json",
+              "sha256": "f78c4b9b46162a8acb0e21d7ed368294eea52f432cdf6ab86fe7ee58dc32b849",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-11",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143157491573Z-e6807ea3/call.json",
+              "sha256": "ec4a867dc1f156ab88a865f17728ecd13492ac11e97843cbbcb29549950b8e7a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143158789595Z-702e9934/call.json",
+              "sha256": "7658ec33daee4d8557c71aa58d383f430088eb48777401816da6615c45ebadf2",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143159977871Z-8a5aeeec/call.json",
+              "sha256": "c3df43423176e8aa866051e0f351e2ec3c85c4c3231939cc777553cc37ff13ae",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143201256288Z-64451349/call.json",
+              "sha256": "9070c9df86507474990ebe4d5bef0e8bf318c70721643006f692e2d2bc294e66",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143202439280Z-ffe76783/call.json",
+              "sha256": "49ee3b4387efb75da3475dcbefdc21ff6e5aa10320c0438b5671c6b2bc2a01ed",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-12",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143203800264Z-283b201c/call.json",
+              "sha256": "31b061ccb904b3697a751abcf967c72753a527e92fb7b9d38d0a3ac76744c9b6",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143204959088Z-4e1c1360/call.json",
+              "sha256": "67f9729d129fc070538f0ecbbb20f12f84198397417db38c6200bbeae314cf4c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143206049104Z-f7b4fd47/call.json",
+              "sha256": "3987b602aafb025623a6335721cf219170c2930bc4b1af897592d834cf3339d5",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143207199024Z-002abfb5/call.json",
+              "sha256": "247932ff18a0fe6c53204a7bb94c308cef7ba47f3b8343e97101566c6cc7184c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143208328894Z-83cd5218/call.json",
+              "sha256": "5efbb2939ce6fc56eb8b53d98e17ed38cb40c43f60d17288bdc22bd644eef35c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-13",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143209498150Z-4af06cfc/call.json",
+              "sha256": "69109212a74b5abd4c00d5df6f90abc786bc284b0151c75d743ae6016fd5a157",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143210669239Z-b865dcb0/call.json",
+              "sha256": "85445464a5874e93dbcae4a1d376a43840cebbad285475db830cc0f9069158e7",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143211935388Z-63fe139f/call.json",
+              "sha256": "549c79f6d7eb15234c36bbcfce5c3b3807fef8a49ac40daf7d60f8a5ad6cea2a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143213698749Z-7db8c4a8/call.json",
+              "sha256": "001be2096c11810b26c7236acab7d2a86f458a5db1385e9deefdd0ca3c6e7bbe",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143217163215Z-be9bea71/call.json",
+              "sha256": "4ca2d524244c13b968735b5843f65eb58ae309066f2a1d1d9c102d6f58cfdf33",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-14",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143219353336Z-299d92c3/call.json",
+              "sha256": "c62e8259c9bc5b11e40fa1c17c230ecadc62bdd4b44447aad0fcd45f1af8112f",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143221067141Z-4c3edbc2/call.json",
+              "sha256": "b8e658d4c0fd3ec0ab08083ef78c32f6570cbc52f4645f71f9afa8d75f88fd3e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143222506257Z-96980f55/call.json",
+              "sha256": "0483d7dd97478303aa1eed7ac2b38f93e1e75b156d175779b85c86f27bae467e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143223888482Z-79a59fcd/call.json",
+              "sha256": "924a9b50f197d0d73f67855fd1764e198c7de90bc04d5c9a460cac18811da9c1",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143225153147Z-73bed764/call.json",
+              "sha256": "b7c74d6700491eac0826b84e44b03e5bfb9670148031d8efb246cf7c49e2fec0",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-15",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143226334402Z-6f1ebe3d/call.json",
+              "sha256": "ac84096d1d955f6fc488e7dcd4c255263677f0edf186a37ee8fb69eed221b228",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143227503674Z-6cb436e6/call.json",
+              "sha256": "5e97deefc6d75c083b2486a237eba5da7cd04acfb8f38e2072bb37fb8b5db027",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143228799559Z-05d2a0a3/call.json",
+              "sha256": "04f09049c9576020bf052e74e9e30b6900eaab98b6f3c644666960cd9c15afce",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143230068826Z-7eea7adc/call.json",
+              "sha256": "1d8ed8ff5cecb387f385960b93c4b90facf32d51500e4f3c04ad13198c7b7831",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143231516594Z-c864df6a/call.json",
+              "sha256": "463eeed33fd74954db6b9e5f7415a04b1b1bb1c884c394d6c75dbb7dd5d3a99b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-16",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143232809287Z-feb48e7f/call.json",
+              "sha256": "1476645e58f5d94afc634c891c15793a277d8ba96b68570fc77bc70dc4573b59",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143233983226Z-12c414c4/call.json",
+              "sha256": "511f257eef96d8ab82695b629253921c4846fd7ca60db92de57ac17bbc09a6f1",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143235159097Z-9bfdc8ea/call.json",
+              "sha256": "cf9e9030afdc5558b4b9cd1f73c07e01cf4e8b3254c27130010530b1b42cbd70",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143236436505Z-28b5da13/call.json",
+              "sha256": "28253d5b215e038f8885f07959e8cec6800ee4ceb747621b7d2a75d925b4e682",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143237633364Z-3b14af3c/call.json",
+              "sha256": "1f07759f373d262b8c5f290d6db60158ded86fddb805342b493b74f2e6eee5a2",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-17",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143238944172Z-4aac5740/call.json",
+              "sha256": "bbd1b508ae4636226e4296e994b1afebe0a35f73dee2b35d4a45b62eb86900d3",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143240098819Z-3dff1443/call.json",
+              "sha256": "fc6bba4a72f64b49ab82e8aceffac4dfd4f8f82f76aea78fa7335cbd6b667da7",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143241267986Z-9c5d5648/call.json",
+              "sha256": "8594dcdf8b7dbdcc8c0da611a0b3f50495e5267ede31115e43f4991926e38032",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143242522511Z-114241bf/call.json",
+              "sha256": "b2744402374e0d4544a8ea3ca264b91ad889cfc3cde9157e3be6a928c40e1a00",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143243708252Z-bf5292c4/call.json",
+              "sha256": "3629abf74d37c52eff4ec744d1dc5fa9775bb2ee8ccadfbf5038037755d54a35",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-18",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143244838311Z-9c4bf98d/call.json",
+              "sha256": "ed6d8158c24f78dd6d462c61ad489d74e842470506a6b4e18b06f959f45e4133",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143246142223Z-cec3435c/call.json",
+              "sha256": "1c91508bd70b8099effd9549f8c7047b7374e3d8b9f0f31bc0894a6e10fba855",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143247423612Z-ce02b80e/call.json",
+              "sha256": "76f47b1096b62939b31f6c31f199327e288da2a499e21fbc00fa2a3b8fb30a7d",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143248830242Z-b714eff3/call.json",
+              "sha256": "0aaa3cfa79c4130e158dda06add2d531459a75db5d4a389608bd234a39ab2bab",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143250143740Z-c6898156/call.json",
+              "sha256": "29eacdfcd64e798b5c75adeb1f524a421e2c9fc387f5b716beb638605c3fc79d",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-19",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143251446701Z-29e8870e/call.json",
+              "sha256": "0ab7abc70303237a2ce56de68d96e9a22fe83c37602e77d234ca6304c2870d08",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143252752166Z-61b8708a/call.json",
+              "sha256": "8b15dd4db11ff947be680523c835e5669cf18fd6c66d372318218c378f00579b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143254029581Z-4d5a5e71/call.json",
+              "sha256": "4f0e142f32e9e767049d840a7b6edfc5dad9683e8b2c6d238d0d02ed5f8b4e9b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143255334181Z-42e17d66/call.json",
+              "sha256": "d8398d672ded90f478fb7d58afc7ca030e2e1690e81e47d5f950f5933490b24c",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143256637339Z-110303be/call.json",
+              "sha256": "89f3b1503f448be5e4dcbd8a541b44744acf0e0b391afd13903d05191b20616e",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-20",
+          "label": "FAIL",
+          "disputed": false,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143257997300Z-f8c16968/call.json",
+              "sha256": "545ce8e5afaeac20484b188504fe6403f2db7f0b48077598df901d8de4671d89",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143259209692Z-6ad00800/call.json",
+              "sha256": "20670faf8749c3be6fda988d98064a206a70342c43b5e1075df779747bb7ccfc",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143300454802Z-8393cc94/call.json",
+              "sha256": "9537e4efb0b632efe28cd1a337e7414e0fa2c5d440c41539949606408c567026",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143301661098Z-340bf5e5/call.json",
+              "sha256": "9736f865a1bc80d92f3905b43c41b1904cc691fce490a78977ed3577fbe52ed7",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143302911747Z-fc7396a2/call.json",
+              "sha256": "d5fedccc9aff3a638a14ef197ee61c98d3906be1b8760b10f022550d03befb25",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-21",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143304271370Z-dc181719/call.json",
+              "sha256": "7f4d86ebe7fa083b974bdb48a0ec1d83645f28217041dc98f9349112969b27b4",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143305571146Z-7895d25f/call.json",
+              "sha256": "2cb6d84167ea0888dce02ae8258c3616f95c33558ad72413d305a73d3f0c77ce",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143306951508Z-8db07e7a/call.json",
+              "sha256": "1eb5392f5e561dd42034898f2f87db65578528a344ed26397755c777095b54f2",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143308323998Z-13bd71ca/call.json",
+              "sha256": "6101c94501275c8e371a85944a1a26baa3cf46833e322d1327015e2e610b6d7d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143311392160Z-f2400589/call.json",
+              "sha256": "d5aa688effef312437908835a37c933b763e39422fafd3e4411e40503ed7372e",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-22",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143313433671Z-f5f62aa7/call.json",
+              "sha256": "e3d8fa498b0fc210c36cc3030c11a3f242709330f99c1b8e87d6f680ab4497f8",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143315308103Z-9561a195/call.json",
+              "sha256": "c0fd833c9ed1169736d8a1be02c4a405dd28d34061546c788ddc632955af3013",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143318746914Z-bef9b410/call.json",
+              "sha256": "007adbadcc437bb3ae3a38f599b3878e8d8e6f6034ff366839ff66fb9e156181",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143322885137Z-0e8b05ae/call.json",
+              "sha256": "e120dad545a8240ef0bee0fa8007c90966fc2b24ec6398099d49c2b5c1e7aed9",
+              "verdict": "MISS",
+              "protocol_error": "Extra data: line 7 column 1 (char 86)"
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143558768807Z-67d2dffc/call.json",
+              "sha256": "dddcaf3cfd034b971315f87f37c055f8b30ef4188712216a57703d42b535ade6",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [
+            "evidence/judge-calls/20261029T143601485869Z-e788d7d1/call.json"
+          ],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": false,
+          "correct_attempts": 0,
+          "invalid_attempts": 1
+        },
+        {
+          "id": "HW8-23",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143604299053Z-eca13249/call.json",
+              "sha256": "ca3b0df27ecb372d97516c052fce868816da4fb26f9fe4e8431af6d45951fd0a",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143605464800Z-b0cee051/call.json",
+              "sha256": "e5ac7658c9290aa68e48fb74984fa05a10901060a05f79cd43e2ae80a239651b",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143607614756Z-6074bba0/call.json",
+              "sha256": "8519dd69d64003b36c8b88d912952f943f20bc4e96f3bbb5d9b968542951744f",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143609019260Z-c3e956bf/call.json",
+              "sha256": "63876325dec24dafb15b147e26f0889cec6929c4487a2d8a8032068c6e0bb332",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143611373948Z-167a9f8e/call.json",
+              "sha256": "e9ddc876fce55de5e33ee0d5c2c4ee3aedfef87ad66edfb73e5f7cba75cb24ad",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-24",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143612546554Z-7d7b96d3/call.json",
+              "sha256": "8f8c18ace262dca65067e018fdefbca4598f3fb4665b583ef6b00e12a99c3ee8",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143613717658Z-5eebcc08/call.json",
+              "sha256": "2fba9ba0bbf33288a08b4f353c4bf939d13ee0296dab07238433509f5081f1a6",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143614886523Z-851cc65c/call.json",
+              "sha256": "480ae3f71c89f1a4a9c95a5aca4b60e3434f1aed99bcb3ea43a91afb953b6e79",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143616095319Z-b47f575b/call.json",
+              "sha256": "0871e44a651b950af5f969cc4dd1312c8cd7160ad1abf8ce7b1b3ef5d561cffc",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143617269098Z-17aae6f1/call.json",
+              "sha256": "5533d49582e70572ab857af2035ddac14e478cf5b2c9d9397e07b3fc61cf6c28",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-25",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143618510012Z-2c39851b/call.json",
+              "sha256": "464c6f207c2f6e760bc5c24a864be0e0bdf923f7cbf349682817214d5938120f",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143619909085Z-fc8609b3/call.json",
+              "sha256": "18acc1c5c42218d00045abd22115337bb7e0c3bbe3103a57f33323fc8de8c23a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143621175944Z-df662958/call.json",
+              "sha256": "d74ab2fd831fddef4c7ee4e299ef422d244d81b0ec878ac6227807bd8af0d430",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143622424935Z-a05bd287/call.json",
+              "sha256": "ce1cfa5ce6e9b03e2cabb2738a3bec0af9bbd24d51958d35138a644ca0d877de",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143623698107Z-214924b0/call.json",
+              "sha256": "d058916b5ada96d38401ecb98b0a43f97b59a6019b2405053baa0ccf2b3a5849",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-26",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143625192363Z-ee62a382/call.json",
+              "sha256": "fd44d9aa02af389978d148d161b1e13b0e9879826c9db6256631e25c4adfd914",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143626487707Z-c90f5ebb/call.json",
+              "sha256": "c5858c3c9a6caba7aec4dd28ce2a594a3b70ce7d16d0da9555d1502ec9381a54",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143627768468Z-14f53014/call.json",
+              "sha256": "9a8ede9c44ed94855d07d133f2a44965af13cadb1185e60ba68915a3a4643bf2",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143629135221Z-0c40e80f/call.json",
+              "sha256": "49549caa4cf30e7879f27d5bd613825f5ebc4c510b936043343f7df1716bed47",
+              "verdict": "FAIL",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143630636051Z-f5a9b630/call.json",
+              "sha256": "7a5f237c460777974585008f68b58c2f2ab2e72faf5c8abc7a4e927bae0ab370",
+              "verdict": "FAIL",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "FAIL",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-27",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143632016108Z-e1b001d9/call.json",
+              "sha256": "7c7d4f7a36e5457c4be1c232c2dfb45b1db92a86b8f566de03359545443bdf09",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143633467969Z-e82163d3/call.json",
+              "sha256": "2ca11c0bb452caad4e1c3fe89b93d9edc56443a4c7fad9c195bfce62ade90624",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143634843801Z-c350ed51/call.json",
+              "sha256": "c5c66f06611dbf84957f0512390f70b3e94806d12d759becc4c5b6b2712be784",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143636219956Z-ab57002a/call.json",
+              "sha256": "93449887da44572d8e53ddcf233b7c7719b3f690166fc54fb152d617b659c09f",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143637624484Z-2e0ce9d7/call.json",
+              "sha256": "67e507bdb1300294de8e4ffcea85e887ef66b7647f060865db2dce089ac81923",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": false,
+          "stable": true,
+          "correct_attempts": 0,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-28",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143639037167Z-e1e995a2/call.json",
+              "sha256": "a7d0f67da648777634894efe84fd28b6f0117fa0bf2618da3546c9da72c4c84d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143640314288Z-9d89e7c4/call.json",
+              "sha256": "c1eeb812e3b45b1390a616ad00ca7fcbc8c088d65dfc674de869a2b66367820a",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143641614236Z-7c4528a9/call.json",
+              "sha256": "dcd25127c464a9b70fee083a74fe4d6ffb40500bd38f35c8c7d6c0e1c4436d17",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143642952823Z-f00f28d3/call.json",
+              "sha256": "b7f1145db89d51f1091340b1cdc1a317a52b8adc6bddbf591d197a84b008ba51",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143644175164Z-be625989/call.json",
+              "sha256": "5156b68d802eb5a0f56279c278db34a9472d9abe0a926bdb542d9f065b555ef4",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-29",
+          "label": "PASS",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143645379974Z-24c82871/call.json",
+              "sha256": "c45cdc5b83d681b39ff99f6dcd68ffa35a266af885191d5b77b9723f95365e31",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143646631444Z-be852e28/call.json",
+              "sha256": "86f97f275ab97c0a71ee2334184cf7cf15c42ee8ca01d55e99b438ec0db59de8",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143647826824Z-b553a03d/call.json",
+              "sha256": "f0bce200000ad8a92ca10b183f04e1fe75f0a6eb728fa5835477b971ec4e033b",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143649082279Z-416c4e4a/call.json",
+              "sha256": "da02f2505bf700e9f76dd968c3e40a934f45bebfde147799e735e587a96d9b8d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143650308154Z-61ece245/call.json",
+              "sha256": "182293d644b06ffda687d9b2858f3e7d49c05e26fd5e58ca3d755a052e1e1697",
+              "verdict": "PASS",
+              "protocol_error": null
+            }
+          ],
+          "excluded_later_captures": [],
+          "majority": "PASS",
+          "agree": true,
+          "stable": true,
+          "correct_attempts": 5,
+          "invalid_attempts": 0
+        },
+        {
+          "id": "HW8-30",
+          "label": "FAIL",
+          "disputed": true,
+          "outputs": [
+            {
+              "capture": "evidence/judge-calls/20261029T143651552335Z-d12f83b4/call.json",
+              "sha256": "054b60bcc83e0449f444bd877dddceb937fe5daa17139e731a771585219c428d",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143652858321Z-6c088670/call.json",
+              "sha256": "232ffb53a3dad5d480181049f1a93f0cbd125f9a1ea19c772878717d49dbbc45",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143656158588Z-867cb08a/call.json",
+              "sha256": "23c7b52f901f33a92fcad6c042751004235394f31821a6cc0315caee9a9336d3",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143659835298Z-b97450c3/call.json",
+              "sha256": "3ef3b3488a0d52b98315f331fd75ec5568772ceb63d4d85dbe9b67a88e26645c",
+              "verdict": "PASS",
+              "protocol_error": null
+            },
+            {
+              "capture": "evidence/judge-calls/20261029T143701253208Z-0ef61ea4/call.json",
+              "sha256": "bbe8bc80b58bab5c0dc4c683fdc55a28f92c2e7c6694a3e7f1d7d5fac3d66ef5",
+              "verdict": "MISS",
+              "protocol_error": "Extra data: line 7 column 1 (char 86)"
+            }
+          ],
+          "excluded_later_captures": [
+            "evidence/judge-calls/20261029T143820205796Z-0cf23692/call.json"
+          ],
+          "majority": "PASS",
+          "agree": false,
+          "stable": false,
+          "correct_attempts": 0,
+          "invalid_attempts": 1
+        }
+      ],
+      "invalid_attempts": 2,
+      "total_attempts": 150,
+      "excluded_later_attempts": 2,
+      "confusion_matrix": {
+        "missed_defect": 3,
+        "false_alarm": 3,
+        "no_valid_majority": 0
+      },
+      "cost": {
+        "first_150_attempts_estimated_usd": 0.18263,
+        "all_paid_attempts_estimated_usd": 0.186509,
+        "mean_input_tokens": 767.8666666666667,
+        "median_duration_ms": 1044.0
+      }
+    }
+  },
+  "diagnostic": {
+    "cases": [
+      {
+        "id": "S5-D18-A",
+        "label": "PASS",
+        "disputed": false,
+        "outputs": [
+          {
+            "capture": "evidence/judge-calls/20261029T143030942551Z-56f45df3/call.json",
+            "verdict": "PASS",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143032446950Z-045f5bc8/call.json",
+            "verdict": "PASS",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143033809305Z-24ae1e66/call.json",
+            "verdict": "PASS",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143035138980Z-1fb4555e/call.json",
+            "verdict": "PASS",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143036473300Z-d0684988/call.json",
+            "verdict": "PASS",
+            "protocol_error": null
+          }
+        ],
+        "majority": "PASS",
+        "agree": true,
+        "stable": true,
+        "correct_attempts": 5,
+        "invalid_attempts": 0
+      },
+      {
+        "id": "S5-D18-B",
+        "label": "FAIL",
+        "disputed": false,
+        "outputs": [
+          {
+            "capture": "evidence/judge-calls/20261029T143037847617Z-610e089f/call.json",
+            "verdict": "FAIL",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143039367074Z-c4cd818c/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143341011279Z-1557573e/call.json",
+            "verdict": "FAIL",
+            "protocol_error": null
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143342392966Z-e69e0ec7/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143539549319Z-2f2ebc58/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          }
+        ],
+        "majority": "MISS",
+        "agree": false,
+        "stable": false,
+        "correct_attempts": 2,
+        "invalid_attempts": 3
+      },
+      {
+        "id": "S5-D25-A",
+        "label": "PASS",
+        "disputed": false,
+        "outputs": [
+          {
+            "capture": "evidence/judge-calls/20261029T143541291312Z-852032c9/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143543585454Z-761fd261/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Extra data: line 7 column 1 (char 195)"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143548535617Z-9dd31afa/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Extra data: line 7 column 1 (char 195)"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143552870329Z-56f086a4/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Extra data: line 7 column 1 (char 195)"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143557290904Z-4234f04f/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Extra data: line 7 column 1 (char 195)"
+          }
+        ],
+        "majority": "MISS",
+        "agree": false,
+        "stable": false,
+        "correct_attempts": 0,
+        "invalid_attempts": 5
+      },
+      {
+        "id": "S5-D25-B",
+        "label": "FAIL",
+        "disputed": false,
+        "outputs": [
+          {
+            "capture": "evidence/judge-calls/20261029T143601339594Z-cc7f31b7/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143604231922Z-85d6091a/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143606526151Z-e94ce56e/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143609031760Z-ea10e863/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          },
+          {
+            "capture": "evidence/judge-calls/20261029T143611373948Z-4b41b94c/call.json",
+            "verdict": "MISS",
+            "protocol_error": "Quote is not verbatim answer text"
+          }
+        ],
+        "majority": "MISS",
+        "agree": false,
+        "stable": false,
+        "correct_attempts": 0,
+        "invalid_attempts": 5
+      }
+    ],
+    "agreement": {
+      "k": 1,
+      "n": 4,
+      "estimate": 0.25,
+      "low": 0.045586062644636216,
+      "high": 0.6993639475573634,
+      "half_width": 0.3268889424563636
+    },
+    "correct_attempts": 7,
+    "total_attempts": 20,
+    "invalid_attempts": 13,
+    "D18": {
+      "correct_attempts": 7,
+      "total_attempts": 10,
+      "case_agreement": {
+        "k": 1,
+        "n": 2,
+        "estimate": 0.5,
+        "low": 0.09452865480086614,
+        "high": 0.9054713451991339,
+        "half_width": 0.40547134519913386
+      }
+    }
+  }
+}

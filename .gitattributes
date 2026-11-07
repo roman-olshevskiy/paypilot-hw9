@@ -1,0 +1,4 @@
+evals/sets/l09_labels.jsonl -text
+rubrics/rubric.v1.md -text
+evals/reports/*.json -text
+evidence/labels-freeze.json -text
